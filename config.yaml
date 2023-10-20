@@ -1,0 +1,9 @@
+# 多久进行一次截图，时间单位second
+grab_timer: 2
+
+img_save_path: D:\\workspace\\pubg_img
+
+screen_button: "ctrl_l"
+
+# 大于0 开启
+auoto_screenshot: 0
