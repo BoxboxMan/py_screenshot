@@ -20,7 +20,7 @@ class Monitor:
         return self.monitor.grab()
 
     def write(self, frame):
-        cv2.imwrite(os.path.join(self.args.img_save_path, f'{time.time().__str__()}.img'), frame)
+        cv2.imwrite(os.path.join(self.args.img_save_path, f'{time.time().__str__()}.png'), frame)
         print("save img success")
 
     def screenshot(self):
