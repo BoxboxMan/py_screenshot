@@ -1,9 +1,10 @@
-# 多久进行一次截图，时间单位second
-grab_timer: 2
-
+# 截图存放的目录 该格式为Windows格式
 img_save_path: D:\\workspace\\pubg_img
 
+# 键盘按下该键进行截图，用户可以自定义
 screen_button: "ctrl_l"
 
-# 大于0 开启
+# 大于0 开启自动截屏
 auoto_screenshot: 0
+# 与auoto_screenshot一起使用。多久进行一次截图，时间单位second
+grab_timer: 2
