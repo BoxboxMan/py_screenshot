@@ -1,7 +1,13 @@
+# 使用方式：直接运行main.py即可开始自动截图 / 手动截图
 # 截图存放的目录 该格式为Windows格式
 img_save_path: D:\\workspace\\pubg_img
 
-# 键盘按下该键进行截图，用户可以自定义
+# 键盘按下该键进行截图，用户可以自定义。以下为枚举类型，例如：可以改为shift
+#    (Key.alt_gr, (Key.alt_gr.value,)),
+#    (Key.alt,    (Key.alt.value,   Key.alt_l.value,   Key.alt_r.value)),
+#    (Key.cmd,    (Key.cmd.value,   Key.cmd_l.value,   Key.cmd_r.value)),
+#    (Key.ctrl,   (Key.ctrl.value,  Key.ctrl_l.value,  Key.ctrl_r.value)),
+#    (Key.shift,  (Key.shift.value, Key.shift_l.value, Key.shift_r.value)))
 screen_button: "ctrl_l"
 
 # 大于0 开启自动截屏
